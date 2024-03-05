@@ -4,14 +4,15 @@ import { motion, useAnimation } from 'framer-motion';
 
 const About = () => {
   const controls = useAnimation();
-  const handleScroll = () => {
-    const scrollY = window.scrollY;
-    controls.start({ opacity: scrollY > 100 ? 1 : 1 });
-  };
+
   React.useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      controls.start({ opacity: scrollY > 100 ? 1 : 1 });
+    };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [controls]);
 
   return (
     <div>

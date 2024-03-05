@@ -1,5 +1,5 @@
 {
-  "name": "NelsonVirgilio",
+  "name": "nelsonvirgilio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,6 +28,9 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "7.21.0-placeholder-for-preset-env.2"
   },
   "browserslist": {
     "production": [
