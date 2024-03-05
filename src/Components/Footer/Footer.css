@@ -1,0 +1,108 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.footer-name {
+  font-size: 36px;
+  font-weight: 700;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0 0 10px 0;
+  letter-spacing: 5px;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  background-color: var(--bs-blue);
+  padding: 5px;
+  margin: 0 20px 30px 0;
+  border-radius: 50%;
+  color: var(--bs-body-bg);
+  transition: all 0.1s ease-in;
+}
+.footer-social a:hover {
+  background: var(--bs-hover-color);
+}
+.footer-p1,
+.footer-p2 {
+  margin: 1px;
+}
+.footer-p1 {
+  font-size: 14px;
+}
+.footer-p2 {
+  font-size: 13px;
+}
+.footer-p2 span {
+  color: var(--bs-blue);
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    margin-top: 200px;
+  }
+  .footer-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: var(--bs-blue);
+    padding: 5px;
+    margin: 0 10px 30px 0;
+    border-radius: 50%;
+    color: var(--bs-body-bg);
+    transition: all 0.1s ease-in;
+  }
+
+  .footer-name {
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0 0 10px 0;
+    letter-spacing: 5px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .footer {
+    margin-top: 200px;
+  }
+  .footer-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: var(--bs-blue);
+    padding: 5px;
+    margin: 0 10px 30px 0;
+    border-radius: 50%;
+    color: var(--bs-body-bg);
+    transition: all 0.1s ease-in;
+  }
+
+  .footer-name {
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0 0 10px 0;
+    letter-spacing: 5px;
+  }
+}

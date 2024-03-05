@@ -1,0 +1,150 @@
+.about {
+  width: 85vw;
+  margin-bottom: 100px;
+}
+.about-container {
+  padding: 80px 30px;
+  width: 80vw;
+}
+.about-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #45505b;
+  width: 77vw;
+  text-align: center;
+}
+.about-title::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #0563bb;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+}
+
+.about-wrapper1 {
+  width: 450px;
+}
+
+.about-wrapper1 img {
+  width: 100%;
+  z-index: 100;
+}
+.about-wrapper2 {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    max-width: 500px;
+  }
+  .about-container {
+    padding: 0;
+    margin: 0 0 0 0;
+    max-width: 500px;
+  }
+
+  .about-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #45505b;
+    width: 77vw;
+    text-align: center;
+  }
+
+  .about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .about-wrapper1 {
+    width: fit-content;
+  }
+  .about-wrapper2 {
+    padding: 20px;
+    width: fit-content;
+  }
+  .about-wrapper1 img {
+    width: 80%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .about {
+    max-width: 900px;
+  }
+  .about-container {
+    padding: 0;
+    margin: 0 0 0 0;
+    max-width: 500px;
+  }
+
+  .about-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #45505b;
+    width: 77vw;
+    text-align: center;
+  }
+  .about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .about-wrapper1 {
+    width: fit-content;
+  }
+  .about-wrapper2 {
+    padding: 20px;
+    width: fit-content;
+  }
+  .about-wrapper1 img {
+    width: 80%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .about {
+    max-width: 62rem;
+    margin-bottom: 100px;
+  }
+  .about-container {
+    padding: 0px;
+    max-width: 62rem;
+  }
+  .about-wrapper1 {
+    width: 300px;
+  }
+  .about-wrapper1 img {
+    width: 100%;
+    z-index: 100;
+  }
+  .about-wrapper2 {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,221 @@
+.header {
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: 3fr 2.3fr;
+  height: 105vh;
+  background-color: #fff;
+  padding: 30px;
+}
+.header--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header--text__name {
+  margin-bottom: -5px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.header--text__title span {
+  color: var(--bs-blue);
+}
+.header--text__social a {
+  color: black;
+  margin: 20px 60px 0px 0px;
+}
+.header-buttom {
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+  background-color: var(--bs-blue);
+  color: #fff;
+  padding: 0.75rem 2.5rem;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  width: fit-content;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.header--images {
+  display: flex;
+  align-self: center;
+  width: 450px;
+}
+.header--images img {
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    max-width: 500px;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    margin: 0px;
+    background-color: #fff;
+  }
+
+  .header--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header--text__name {
+    margin-bottom: -5px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+  }
+  .header--text__title span {
+    color: var(--bs-blue);
+  }
+  .header--text__social a {
+    color: black;
+    margin: 20px 25px 0px 0px;
+  }
+  .header-buttom {
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    background-color: var(--bs-blue);
+    color: #fff;
+    padding: 0.75rem 2.5rem;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    width: fit-content;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .header--images {
+    display: flex;
+    align-self: center;
+    width: 450px;
+  }
+  .header--images img {
+    width: 100%;
+  }
+
+  .header--text__name {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .header--text__title span {
+    color: var(--bs-blue);
+  }
+  .header--text__social a {
+    margin: 20px 25px 0px 0px;
+  }
+
+  .header-buttom {
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    background-color: var(--bs-blue);
+    color: #fff;
+    padding: 0.75rem 2.5rem;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    width: fit-content;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .header--images {
+    display: none;
+    align-self: center;
+    width: 450px;
+  }
+  .header--images img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .header {
+    max-width: 500px;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    margin: 0px;
+    background-color: #fff;
+  }
+  .header--text__name {
+    margin-bottom: -5px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 56px;
+  }
+  .header--text__title span {
+    color: var(--bs-blue);
+  }
+  .header--text__social a {
+    color: black;
+    margin: 20px 25px 0px 0px;
+  }
+  .header-buttom {
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    background-color: var(--bs-blue);
+    color: #fff;
+    padding: 0.75rem 2.5rem;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    width: fit-content;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .header--images {
+    display: flex;
+    align-self: center;
+    width: 450px;
+  }
+  .header--images img {
+    width: 100%;
+  }
+  .header--text__name {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .header--text__title span {
+    color: var(--bs-blue);
+  }
+  .header--text__social a {
+    color: black;
+    margin: 20px 25px 0px 0px;
+  }
+  .header-buttom {
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    background-color: var(--bs-blue);
+    color: #fff;
+    padding: 0.75rem 2.5rem;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    width: fit-content;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .header--images {
+    display: none;
+    align-self: center;
+    width: 450px;
+  }
+  .header--images img {
+    width: 100%;
+  }
+}
+@media (min-width: 900px) and (max-width: 1200px) {
+  .header--images {
+    display: flex;
+    align-self: center;
+    width: 300px;
+  }
+  .header--images img {
+    width: 100%;
+  }
+}

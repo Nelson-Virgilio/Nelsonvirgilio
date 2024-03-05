@@ -1,0 +1,114 @@
+.skill-container {
+  padding: 30px;
+  width: 80vw;
+  margin-bottom: 40px;
+}
+.skill-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #45505b;
+  width: 77vw;
+  text-align: center;
+}
+.skill-title::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #0563bb;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.skillWrappe {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.skill-content-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.progressBar {
+  margin-top: 15px;
+}
+.progressBar span {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: small;
+  color: #45505b;
+}
+.Bar {
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  height: 8px;
+  background-color: #f2f3f5;
+  transition: width 0.5s ease-in-out;
+  position: relative;
+  margin-top: 3px;
+}
+.Bar:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  height: 8px;
+  background-color: var(--bs-blue);
+}
+.skill-progressBar1:before {
+  width: 100%;
+}
+.skill-progressBar2:before {
+  width: 95%;
+}
+.skill-progressBar3:before {
+  width: 80%;
+}
+.skill-progressBar4:before {
+  width: 75%;
+}
+.skill-progressBar5:before {
+  width: 90%;
+}
+.skill-progressBar6:before {
+  width: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+  .skillWrappe {
+    grid-template-columns: 1fr;
+  }
+  .skills {
+    max-width: fit-content;
+  }
+  .skill-container {
+    max-width: fit-content;
+  }
+  .skill-title {
+    max-width: fit-content;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .skillWrappe {
+    grid-template-columns: 1fr;
+  }
+  .skills {
+    max-width: fit-content;
+  }
+  .skill-container {
+    max-width: fit-content;
+  }
+  .skill-title {
+    max-width: fit-content;
+  }
+}

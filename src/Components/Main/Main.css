@@ -1,0 +1,11 @@
+.main {
+  width: 85vw;
+  margin-left: 15vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    max-width: 600px;
+    margin-left: 0vw;
+  }
+}
