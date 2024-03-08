@@ -33,7 +33,7 @@ const About = () => {
             <div className="about-wrapper2">
               <p>
                 <h1>Nelson Virgilío</h1>
-                Nelson Evaristo Virgílio i am a highly motivated Frontend
+                Nelson Evaristo Virgílio i am a highly motivated Software
                 Developer passionate about creating dynamic and intuitive web
                 experiences. I possesses solid experience in HTML, CSS, and
                 JavaScript, with specialized expertise in React.js. I have a

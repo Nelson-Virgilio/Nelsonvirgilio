@@ -4,7 +4,6 @@ import { motion, useAnimation } from 'framer-motion';
 
 const Work = () => {
   const controls = useAnimation();
-
   React.useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;

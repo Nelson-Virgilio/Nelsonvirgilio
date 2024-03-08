@@ -32,7 +32,7 @@
   margin-left: -20px;
   margin-right: -10px;
   border-radius: 50%;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 .active {
   transition: all 0.5s ease-in-out;
@@ -44,7 +44,11 @@
 }
 .menuItems--icons.active svg {
   color: white;
-  background-color: transparent;
+}
+.menuItems--icons.active svg:active {
+  /* color: black; */
+  /* color: white; */
+  background-color: var(--bs-blue);
 }
 .menuItems--headins {
   font-family: 'Open Sans', sans-serif;

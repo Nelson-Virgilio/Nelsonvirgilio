@@ -1,6 +1,7 @@
 import './Header.css';
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-scroll';
 
 import {
   // FiFacebook,
@@ -59,7 +60,9 @@ const Header = () => {
                 <FiLinkedin />
               </a>
             </div>
-            <buttom className="header-buttom">Contact</buttom>
+            <Link to="Contact" span={true} smooth={true}>
+              <span className="header-buttom">Contact</span>
+            </Link>
           </motion.div>
         </div>
         <div className="header--images">
